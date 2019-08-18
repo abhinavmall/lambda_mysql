@@ -1,0 +1,30 @@
+{
+  "name": "lambda_mysql",
+  "version": "1.0.0",
+  "description": "Simple Lambda project to query mysql db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavmall/lambda_mysql.git"
+  },
+  "keywords": [
+    "node",
+    "lambda",
+    "mysql",
+    "aws",
+    "rds"
+  ],
+  "author": "Abhinav Mall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavmall/lambda_mysql/issues"
+  },
+  "homepage": "https://github.com/abhinavmall/lambda_mysql#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "mysql": "^2.17.1"
+  }
+}
